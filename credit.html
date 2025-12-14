@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>credit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        body{
+            font-family: "Kanit", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        mark{
+            background:linear-gradient(hotpink,skyblue);
+            color:black;
+        }
+
+        .zoom:hover{
+            transform: scale(1.5); 
+            cursor:pointer;
+        }
+
+        .zoom{
+            display: inline-block;
+            transition: transform 0.3s ease;
+        }
+
+        button{
+            background:linear-gradient(red,maroon);
+            color:black;
+            font-family: "Kanit", sans-serif;
+        }
+
+        .bbig1 { font-size: 80px; }
+        .bbig2 { font-size: 72px; }
+
+        img:hover { animation: glowcolor 1.2s infinite alternate; }
+
+        @keyframes glowcolor{
+            0% {box-shadow: 0 0 20px hotpink;}
+            25% {box-shadow: 0 0 20px skyblue;}
+            50% {box-shadow: 0 0 20px gold;}
+            75% {box-shadow: 0 0 20px darkviolet;}
+            100% {box-shadow: 0 0 20px red;}
+        }
+
+        .blink-bg{
+            animation: blinkbg 1s infinite alternate;
+            padding: 3px 6px;
+        }
+        @keyframes blinkbg{
+            0%{background: yellow;}
+            100%{background: orange;}
+        }
+
+    </style>
+  </head>
+  <body>
+    <br>
+    <center>
+        <span class = "bbig1"><mark onclick = "document.location = 'https://khemniti.github.io/kk/base.html'" class = "zoom">😀มาเรียนกัน😀</mark></span>
+    </center>
+    <br><br><br>
+    <div style="margin-left: 25%; margin-right: 25%;">
+
+        <div style="float: left;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJjW7fOPB4_SjWk0NWIVmrtoNDsTllMdwYPg&s" width="400" height="400">
+        </div>
+
+        <div style="margin-left: 440px;">
+            <h1>ผู้จัดทำ: เขมนิธิ ตันติศรีปรีชา (เข้มแข็ง)</h1>
+            <br>
+            <h1>วัน/เดือน/ปีเกิด: ไม่บอกว้ายๆ</h1>
+            <br>
+            <h1>การศึกษา: อัสสัมชัญธนบุรี, สวนกุหลาบวิทยาลัย</h1>
+        </div>
+
+        <div style="clear: both;"></div>
+
+    </div>
+    <center>
+        <button onclick = "document.location = 'https://khemniti.github.io/kk/base.html'" class = "zoom"><span class = "bbig2">กลับ</span></button>
+    </center>
+</body>
+</html>
